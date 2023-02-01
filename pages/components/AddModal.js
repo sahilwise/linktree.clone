@@ -33,12 +33,12 @@ export default function Modal({Text, Path}) {
       <div className="flex flex-col items-center my-5">
             <div className="w-16 h-16 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${`/support.png`})` }}></div>
             <span className="my-3 font-black text-xl">
-               Say thanks to salnet
+               Send Money to Pintu Maity
             </span>
             
-            <div className="grid grid-cols-2 gap-x-4 pb-32  ">
-                <div style={{cursor: 'url(handler.png), auto'}} onClick={()=>{location.assign('https://www.paypal.com/paypalme/jsthil99')}} className="bg-black text-white px-5 py-2 rounded-full text-center">Paypal</div>
-                <div style={{cursor: 'url(handler.png), auto'}} onClick={()=>{location.assign('upi://pay?pa=iamsahil@pingpay&pn=Salnet&cu=INR&am=0')}} className="bg-black text-white px-5 py-2 rounded-full text-center">Upi</div>
+            <div className="grid grid-cols-1 gap-x-4 pb-32  ">
+                {/* <div style={{cursor: 'url(handler.png), auto'}} onClick={()=>{location.assign('https://www.paypal.com/paypalme/jsthil99')}} className="bg-black text-white px-5 py-2 rounded-full text-center">Paypal</div> */}
+                <div style={{cursor: 'url(handler.png), auto'}} onClick={()=>{location.assign('upi://pay?pa=iamsahil@pingpay&pn=Salnet&cu=INR&am=0')}} className="bg-black text-white px-12 py-2 rounded-full text-center">Send Via Upi</div>
             </div>
 
             <span className="text-xs text-white text-center">LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
