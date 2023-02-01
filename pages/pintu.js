@@ -60,7 +60,7 @@ export default function Home() {
         </div>
 
         <div className="grid gap-0.5 mt-5 mx-5 ">
-            <LinkCard  Imager="contact" Title="Save my number as a contact" domain="wapp.ink" />
+            <LinkCard  Imager="contact" Title="Save my number as a contact" domain="vcard.link/card/DvkG.vcf" />
             <LinkCard  Imager="facebook" Title="I'm on facebook" domain="facebook.com" />
             <LinkCard  Imager="messenger" Title="I'm on messenger" domain="youtube.com" />
             <LinkCard  Imager="whatsapp" Title="Chat on whatsapp" domain="wapp.ink" />
