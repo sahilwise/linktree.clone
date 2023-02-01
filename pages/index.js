@@ -8,7 +8,7 @@ export default function Home() {
 <div className="relative max-w-2xl mx-auto my-3">
         <div className="flex justify-between items-center text-sm sm:mx-5 mx-6">
 
-            <Link href="https://addify.us/sal">
+            <Link href="https://addify.us/sal"> 
             <button>
 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
