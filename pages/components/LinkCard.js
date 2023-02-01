@@ -6,7 +6,7 @@ const LinkCard = ({Title, domain, Imager})=>{
         <>
 
                 <Link href={`https://${domain}`}>
-                <div className="my-2 flex h-20 items-center justify-between rounded-3xl border-2 border-b-4 border-l-4 border-black px-4 shadow-2xl">
+                <div style={{cursor: 'url(handler.png), auto'}} className="my-2 flex bg-white h-20 items-center justify-between rounded-3xl border-2 border-b-4 border-l-4 border-black px-4 shadow-2xl">
                 <div className="flex items-center">
                 <img alt="photo" className="w-10 rounded-full" src={`${Imager}.png`} />
                 <div className="ml-2">
