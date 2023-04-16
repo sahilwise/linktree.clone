@@ -65,7 +65,7 @@ export default function Store() {
     <h3 className='text-center text-neutral-800 font-black pt-16'>
                    {/* salnet */}
             </h3>
-            <h4 className='text-center text-white text-xs font-thin pb-16'>Powered by <span className='font-semibold'>addify</span></h4>
+            <h4 className='text-center text-white text-xs font-thin pb-16'>Created by <span className='font-semibold'>salnet</span></h4>
            </div>
         )
 
