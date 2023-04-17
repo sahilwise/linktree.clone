@@ -33,7 +33,7 @@ export default function Modal({Text, Path}) {
       <div className="flex flex-col items-center my-5">
             <div className="w-16 h-16 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${`/support.png`})` }}></div>
             <span className="my-3 font-black text-xl">
-               Send Money to Pintu Maity
+               Send Money to Sahil
             </span>
             
             <div className="grid grid-cols-1 gap-x-4 pb-32  ">
