@@ -42,7 +42,7 @@ export default function Modal({Text, Path}) {
             </div>
 
             <span className="text-xs text-white text-center">LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
-            LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+            LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
             </span>
 
             <div className="text-xs text-center">
